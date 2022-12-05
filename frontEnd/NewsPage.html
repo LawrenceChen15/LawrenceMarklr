@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {font-family: 'Times New Roman', Times, serif, serif, Helvetica, sans-serif;}
+
+  body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #042baa;
+}
+
+    body { 
+        background-image: ("./asset/ExamMarkImage.png");
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position-y: 100px;
+        background-attachment: fixed;
+    }
+
+  .BIGBOX{
+     position: fixed; 
+     bottom: 80%;
+     position: center;
+     width: 100%;
+     height: auto;
+     margin: auto;
+     padding: 50px;
+     background-color: rgb(24, 229, 208);
+     padding-bottom: 10px;
+}
+
+.TEXTBOX{
+  text-align:center;
+  float: middle;
+  align-content:center;
+  overflow-wrap: break-word;
+
+}
+
+</style>
+
+
+<body>
+
+    <ul>
+      <li><a href="./HomePage.html">Home</a></li>
+      <li><a class="active" href="./NewsPage.html">News</a></li>
+      <li><a href="./ContactPage.html">Contact</a></li>
+      <li><a href="./AboutPage.html">About</a></li>
+    </ul>
+</body>
+
+
+</html>
